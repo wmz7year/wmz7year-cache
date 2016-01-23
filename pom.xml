@@ -59,5 +59,8 @@
 	</dependencyManagement>
 
 	<modules>
+	<module>wmz7year-cache-commom</module>
+	<module>wmz7year-cache-config</module>
+	<module>wmz7year-cache-default</module>
 	</modules>
 </project>
