@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<project
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.github.wmz7year</groupId>
+	<artifactId>wmz7year-cache</artifactId>
+	<version>0.0.1-SNAPSHOTS</version>
+	<packaging>pom</packaging>
+
+	<name>wmz7year-cache</name>
+	<url>https://github.com/wmz7year/wmz7year-cache.git</url>
+
+	<description>Simple cache api</description>
+	<inceptionYear>2016</inceptionYear>
+
+	<developers>
+		<developer>
+			<name>Jiang wei</name>
+			<email>ydswcy513@gmail.com</email>
+		</developer>
+	</developers>
+
+	<scm>
+		<connection>
+        		scm:git:https://github.com/wmz7year/wmz7year-cache.git
+     	 	</connection>
+		<developerConnection>
+         		scm:git:https://github.com/wmz7year/wmz7year-cache.git
+     		</developerConnection>
+		<url>https://github.com/wmz7year/wmz7year-cache.git</url>
+		<tag>HEAD</tag>
+	</scm>
+
+	<issueManagement>
+		<system>GitHub Issues</system>
+		<url>https://github.com/wmz7year/wmz7year-cache/issues</url>
+	</issueManagement>
+
+	<licenses>
+		<license>
+			<name>The Apache License, Version 2.0</name>
+			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+		</license>
+	</licenses>
+
+	<properties>
+		<!-- project settings -->
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<java.version>1.7</java.version>
+		<maven.compiler.source>1.7</maven.compiler.source>
+		<maven.compiler.target>1.7</maven.compiler.target>
+	</properties>
+
+	<dependencyManagement>
+		<dependencies>
+		</dependencies>
+	</dependencyManagement>
+
+	<modules>
+	</modules>
+</project>
